@@ -6,18 +6,20 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
+  <!-- Had to make a style tag in html to pass the media query test of the FCC suite-->
   <style>
     @media (max-width: 600px){
       #welcome-section{
       background-color: green;
+    }
   }
-}
   </style>
 
   <body>
 
     <nav id="navbar">
-      <a href="#projects">Welcome</a>
+      <a href="#welcome-section">Welcome</a>
+      <a href="#projects">Projects</a>
     </nav>
 
     <main>
@@ -25,15 +27,15 @@
       <script src="js/index.js"></script>
 
       <section id="welcome-section">
-        <h1>Portafolio</h1>
-        <a href="www.github.com" target="_blank" id="profile-link"></a>
+        <h1>My Portfolio</h1>
+        <a href="http://www.github.com" target="_blank" id="profile-link"></a>
       </section>
 
       <section id="projects">
         <figure class="project-tile">
-          <figcaption></figcaption>
+          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fields_below_Frocester_Hill_%281565%29.jpg/360px-Fields_below_Frocester_Hill_%281565%29.jpg'>
+          <figcaption><a href="http://www.youtube.com" target='_blank'>My Project</a></figcaption>
         </figure>
-        <p><a href="www.youtube.com">My project</a></p>
       </section>
     </main>
   </body>
